@@ -1,0 +1,5 @@
+Array: [Go F# Kotlin]
+Slice: [Syntax Control Memory]
+Copied slice: [Syntax Control Memory]
+Window: [Control Memory]
+Map: map[Clojure:2007 Go:2009 Kotlin:2011]

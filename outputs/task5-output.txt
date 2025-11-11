@@ -1,0 +1,2 @@
+Ordered scores: [73 88 92 99]
+Average score: 88.00

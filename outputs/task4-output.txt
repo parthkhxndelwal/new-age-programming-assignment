@@ -1,0 +1,8 @@
+Tier: B
+Eligible for mentoring
+Practice attempt 1
+Practice attempt 2
+Practice attempt 3
+0 -> Syntax
+1 -> Control
+2 -> Packages

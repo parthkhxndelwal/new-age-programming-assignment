@@ -1,0 +1,3 @@
+Initial: 5
+After increment: 6
+Pointer address: &{6}
