@@ -11,10 +11,12 @@ type Catalog struct {
     items []course
 }
 
+// NewCatalog seeds a catalog with an empty course list.
 func NewCatalog() Catalog {
     return Catalog{items: []course{}}
 }
 
+// Add stores a new course entry while keeping ownership internal.
 func (c *Catalog) Add(title string, credits int) {
     c.items = append(c.items, course{title: title, credits: credits})
 }

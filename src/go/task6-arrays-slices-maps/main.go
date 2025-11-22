@@ -13,6 +13,7 @@ func main() {
 
     copied := make([]string, len(slice))
     copy(copied, slice)
+    // Carve a view of the tracked slice to show slicing semantics.
     window := copied[1:]
 
     stats := map[string]int{"Go": 2009, "Kotlin": 2011}

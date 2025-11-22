@@ -28,6 +28,7 @@ func main() {
     }
 
     topics := []string{"Syntax", "Control", "Packages"}
+    // Iterate with range to pair index and value during reporting.
     for index, topic := range topics {
         fmt.Printf("%d -> %s\n", index, topic)
     }

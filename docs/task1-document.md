@@ -2,8 +2,6 @@
 
 ## Go Overview
 Go delivers lightweight concurrency, simple syntax, and a batteries-included tooling suite.
-- Concurrency primitives (goroutines, channels) simplify scalable service design.
-- Compilation to single binaries lowers deployment friction across platforms.
 ```go
 package main
 import "fmt"
@@ -16,8 +14,6 @@ func main() {
 
 ## F# Overview
 F# favors functional pipelines on .NET with strong type inference.
-- Pipeline operators and pattern matching make data transformations expressive.
-- Access to the entire .NET ecosystem supports enterprise integration.
 ```fsharp
 let squares = [1..5] |> List.map (fun n -> n * n)
 printfn "%A" squares
@@ -25,8 +21,6 @@ printfn "%A" squares
 
 ## Clojure Overview
 Clojure embraces immutable data and macros on the JVM.
-- Persistent data structures remove shared-state race conditions.
-- Macros enable domain-specific languages while reusing Java libraries.
 ```clojure
 (def numbers [1 2 3 4])
 (println (reduce + numbers))
@@ -34,8 +28,6 @@ Clojure embraces immutable data and macros on the JVM.
 
 ## Kotlin Overview
 Kotlin blends object-oriented and functional constructs for JVM and Android.
-- Null-safety and sealed classes push common runtime failures to compile time.
-- Coroutines and DSL support suit Android apps, backend services, and scripting.
 ```kotlin
 fun main() {
     val items = listOf("Go", "F#", "Clojure", "Kotlin")

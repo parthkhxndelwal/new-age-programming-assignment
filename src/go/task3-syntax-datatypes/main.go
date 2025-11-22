@@ -16,6 +16,7 @@ func main() {
     var unsigned uint8 = 200
     var converted = int(unsigned)
 
+    // Round the passing ratio to two decimals for report readability.
     ratio := passing / float64(enrolled)
     rounded := math.Round(ratio*100) / 100
 
